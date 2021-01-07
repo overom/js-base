@@ -52,3 +52,6 @@ const data = [
 // Rajoutez un element à chaque object dans le tableau "data"
 // Updater un element à chaque object dans le tableau "data"
 // Updater un element à chaque object dans le tableau "data" si la key "age" > 50 alors ajouter la key vieux : true
+
+// intaller express dans node
+// https://expressjs.com/
