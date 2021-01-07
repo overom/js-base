@@ -1,26 +1,31 @@
 // Ici on definit les variables
 let name = "Joris";
-const country = "France";
-const age = 33;
+const country = "France"; // String
+const age = 33; // Number
 const postalCode = 73000;
 const a = null;
 const b = undefined;
-const hobbies = ["ski", "rap", "voyage", 11];
-const pets = { nom: "vodka", race: "chat", age: 10 };
-const employee = false;
-const isCity = true;
+const hobbies = ["ski", "rap", "voyage", 11]; // Array
+const pets = { nom: "vodka", race: "chat", age: 10 }; // Object
+const employee = false; // Boolean
+const isCity = true; // Boolean
 name = "Romain";
 
 let j;
 
 // Ici on declare une fonction
 const myFunction = (a, b) => {
-  //const m = "Moi";
-  return a + " " + b;
+  const m = "Moi";
+  return `${a} ${b}`; //ES6
+  return a + " " + b; // ES5
   // Rien ne s'execute apres un return
   console.log("====================================");
   console.log("hellllooo");
   console.log("====================================");
+};
+
+const addition = (param1, param2) => {
+  return param1 + param2;
 };
 
 // Ici j'appelle ma fonction
