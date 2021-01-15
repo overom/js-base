@@ -1,29 +1,19 @@
-// All we eat is water and dry matter.
+// Your task is to write a function called valid_spacing() or validSpacing() which checks if a string has valid spacing. The function should return either True or False.
 
-// John bought potatoes: their weight is 100 kilograms. Potatoes contain water and dry matter.
+// For this kata, the definition of valid spacing is one space between words, and no leading or trailing spaces. Below are some examples of what the function should return.
 
-// The water content is 99 percent of the total weight. He thinks they are too wet and puts them in an oven - at low temperature - for them to lose some water.
-
-// At the output the water content is only 98%.
-
-// What is the total weight in kilograms (water content plus dry matter) coming out of the oven?
-
-// He finds 50 kilograms and he thinks he made a mistake: "So much weight lost for such a small change in water content!"
-
-// Can you help him?
-
-// Write function potatoes with
-
-//     int parameter p0 - initial percent of water-
-//     int parameter w0 - initial weight -
-//     int parameter p1 - final percent of water -
-
-// potatoesshould return the final weight coming out of the oven w1 truncated as an int.
-
-function potatoes(p0, w0, p1) {
-  // your code
+function validSpacing(s) {
+  // write your code here
 }
 
-// Example:
-
-// potatoes(99, 100, 98) --> 50
+// 'Hello world' = true
+// ' Hello world' = false
+// 'Hello world  ' = false
+// 'Hello  world' = false
+// 'Hello' = true
+// // Even though there are no spaces, it is still valid because none are needed
+// 'Helloworld' = true
+// // true because we are not checking for the validity of words.
+// 'Helloworld ' = false
+// ' ' = false
+// '' = true
