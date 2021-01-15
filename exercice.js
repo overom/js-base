@@ -7,12 +7,16 @@
 
 // Rules:
 
+
 //     Children under 14 old.
 //     Teens under 18 old.
 //     Young under 21 old.
 //     Adults have 21 or more.
 
-function peopleWithAgeDrink(old) {}
+const peopleWithAgeDrink = (old) => {
+    
+   
+}
 
 // Exemple :
 // peopleWithAgeDrink(13) === "drink toddy";
@@ -20,3 +24,6 @@ function peopleWithAgeDrink(old) {}
 // peopleWithAgeDrink(18) === "drink beer";
 // peopleWithAgeDrink(20) === "drink beer";
 // peopleWithAgeDrink(30) === "drink whisky";
+
+
+
